@@ -9,6 +9,8 @@ import {BrowserRouter as Router,
 
 import Navbar from './components/Navbar';
 import Button from './components/Button';
+import HeroSection from './components/HeroSection';
+import Home from './components/pages/Home';
 
 
 function App() {
@@ -18,9 +20,7 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path="/" exact>
-            
-          </Route>
+          <Route path="/" exact element={<Home />} />
         </Routes>
       </Router>
     </div>
