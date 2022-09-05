@@ -284,7 +284,7 @@ h1 {
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -389,3 +389,57 @@ text-decoration: none;
       margin-bottom: 2rem;
     }
   }
+
+/* FOOTER */
+
+.footer-container {
+    background: #242424;
+    color: white;
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-subscription {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-subscription-heading {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-subscription-text {
+    margin-bottom: 2rem;
+}
+
+.input-areas form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-areas input {
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    width: 60%;
+}
+
+.footer-links {
+}
+
+.footer-link-item {
+    margin-bottom: 0.5rem;
+}
+
+.footer-link-item a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-link-item a:hover {
+    text-decoration: underline;
+}
